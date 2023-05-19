@@ -7,6 +7,14 @@
     {
       "id": "2",
       "text": "pay the bills"
+    },
+    {
+      "id": "3",
+      "text": "go to gym"
+    },
+    {
+      "id": "4",
+      "text": "get new book"
     }
   ]
 }
