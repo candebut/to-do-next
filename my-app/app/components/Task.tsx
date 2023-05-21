@@ -11,7 +11,7 @@ interface TaskProps {
   task: ITask;
 }
 
-const Task: React.FC<TaskProps> = ({ task }) => {
+const Task: React.FC<TaskProps> = ({ task, t }) => {
   const router = useRouter();
   const [openEditModal, setOpenEditModal] = useState<boolean>(false);
   const [openDeleteModal, setOpenDeleteModal] = useState<boolean>(false);
@@ -46,17 +46,17 @@ const Task: React.FC<TaskProps> = ({ task }) => {
         />
         <Modal modalOpen={openEditModal} setModalOpen={setOpenEditModal}>
           <form onSubmit={handleSubmitEditTodo}>
-            <h3 className="font-bold text-lg">Edit task</h3>
+            <h3 className="font-bold text-lg"> {t("common.editTask")} </h3>
             <div className="modal-action">
               <input
                 value={taskToEdit}
                 onChange={(e) => setTaskToEdit(e.target.value)}
                 type="text"
-                placeholder="Type here"
+                placeholder="..."
                 className="input input-bordered w-full "
               />
               <button className="btn" type="submit">
-                Submit
+                {t("common.submit")}
               </button>
             </div>
           </form>
@@ -68,12 +68,10 @@ const Task: React.FC<TaskProps> = ({ task }) => {
           size={20}
         />
         <Modal modalOpen={openDeleteModal} setModalOpen={setOpenDeleteModal}>
-          <h3 className="text-lg">
-            Are you sure you want to delete this task?
-          </h3>
+          <h3 className="text-lg">{t("common.confirmationMessage")}</h3>
           <div className="modal-action">
             <button onClick={() => handleDeleteTask(task.id)} className="btn">
-              Yes
+              {t("common.yes")}
             </button>
           </div>
         </Modal>

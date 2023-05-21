@@ -1,12 +1,8 @@
 {
   "tasks": [
     {
-      "id": "1",
-      "text": "buy chocolate"
-    },
-    {
       "id": "2",
-      "text": "pay the bills"
+      "text": "pagar cosas"
     },
     {
       "id": "3",
@@ -19,6 +15,10 @@
     {
       "id": "deeaf137-ab6b-491c-a766-653564a6612e",
       "text": "hug Topi"
+    },
+    {
+      "id": "5adb674e-9e4f-4ff0-90a0-617e27407e4d",
+      "text": "Saludar a Santi por su cumple"
     }
   ]
 }
