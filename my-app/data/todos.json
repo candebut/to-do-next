@@ -1,24 +1,20 @@
 {
   "tasks": [
     {
-      "id": "2",
-      "text": "pagar cosas"
-    },
-    {
-      "id": "3",
-      "text": "go to gym"
-    },
-    {
       "id": "4",
-      "text": "get new book"
+      "text": "go to the gym, don't be lazy"
     },
     {
       "id": "deeaf137-ab6b-491c-a766-653564a6612e",
-      "text": "hug Topi"
+      "text": "call my friend back"
     },
     {
-      "id": "5adb674e-9e4f-4ff0-90a0-617e27407e4d",
-      "text": "Saludar a Santi por su cumple"
+      "id": "f3f7c459-b087-4418-8a89-fddbd9aaf63d",
+      "text": "pay the bills"
+    },
+    {
+      "id": "24d8255c-3f89-4341-8964-c4dce2e08b7e",
+      "text": "buy food for my cat"
     }
   ]
 }
